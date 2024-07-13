@@ -31,6 +31,8 @@ using namespace reticulate::libpython;
 #include "signals.h"
 #include "tinythread.h"
 
+#include <signal.h>
+
 namespace reticulate {
 namespace event_loop {
 

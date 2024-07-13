@@ -15,6 +15,7 @@ using namespace Rcpp;
 #include "tinythread.h"
 
 #include <fstream>
+#include <signal.h>
 #include <time.h>
 
 #ifndef _WIN32
